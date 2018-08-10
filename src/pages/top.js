@@ -6,14 +6,13 @@ class top extends Component {
             <div className="container top__hero">
                 <div className="h-100">
                     <div className="row">
-                        <div className="col-md-6">
-                            <h5>HI, I'M DAMI</h5>
-                            <h1 className="top__hero--bold">FULL STACK DEVELOPER</h1>
+                        <div className="col-md-6 top__hero__info">
+                            <h1 className="top__hero__text top__hero--bold pt-0 mt-0">Hi, I'm Dami. <br/> A Full Stack Developer</h1>
                             <p>My goal is to create visual experience on all platforms to help business clients grow and compete actively.</p>
-                            <p class="mt-4"><a href="">MY PROJECT</a></p>
+                            <p class="top__hero__projectlink"><a href="/">MY PROJECT</a></p>
                         </div>
-                        <div className="col-md-6">
-                            <img src="../images/coding.svg" className="img-fluid" />
+                        <div className="col-md-6 p-4">
+                            <img src="../images/work.svg" className="img-fluid" />
                         </div>
                     </div>
                 </div>

@@ -4,7 +4,7 @@ import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 
 import Header from './header'
-import './layout.css'
+import '../styles/main.scss'
 import 'bootstrap/dist/css/bootstrap.css';
 
 const Layout = ({ children, data }) => (
@@ -30,7 +30,7 @@ const Layout = ({ children, data }) => (
           <html lang="en" />
         </Helmet>
         <Header siteTitle={data.site.siteMetadata.title} />
-        <div className="container container--toppad">
+        <div className="container-fluid container--toppad">
           {children}
         </div>
       </>

@@ -12,7 +12,7 @@ class top extends Component {
                             <p class="top__hero__projectlink"><a href="#portfolio">MY PORTFOLIO</a></p>
                         </div>
                         <div className="col-md-6 p-4">
-                            <img src="../images/work.svg" className="img-fluid" alt="work icon"/>
+                            <img src="src/images/work.svg" className="img-fluid" alt="work icon"/>
                         </div>
                     </div>
                 </div>

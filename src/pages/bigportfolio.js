@@ -14,6 +14,7 @@ class bigportfolio extends Component {
                         </ul>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tempor, neque et fermentum efficitur, nibh nulla fermentum purus, non vestibulum ante diam ut nunc. Phasellus iaculis leo sed pulvinar rutrum. Maecenas mattis tincidunt metus, ut vulputate eros interdum vitae. Nulla porttitor elit ac justo molestie, tristique scelerisque elit dictum. </p>
                         <p class="pt-4 textcolor1"><b>CASE STUDY COMING SOON</b></p>
+                        <a href="http://demo.carcliq.co.za" target="_blank"><b>VISIT WEBSITE</b></a>
                     </div>
                     <div className="col-md-8">
                         <img src="../images/carcliq.jpg" className="img-fluid" alt="carcliq" />
@@ -21,7 +22,7 @@ class bigportfolio extends Component {
                 </div>
                 <div className="portfolio__big row">
                     <div className="col-md-8">
-                        <img src="../images/carcliq.jpg" className="img-fluid" alt="unsignedafrika" />
+                        <img src="../images/unsigned.jpg" className="img-fluid" alt="unsignedafrika" />
                     </div>
                     <div className="col-md-4">
                         <p className="m-0 p-0 textcolor1"><b>FULL STACK DEVELOPMENT</b></p>
@@ -33,6 +34,7 @@ class bigportfolio extends Component {
                         </ul>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tempor, neque et fermentum efficitur, nibh nulla fermentum purus, non vestibulum ante diam ut nunc. Phasellus iaculis leo sed pulvinar rutrum. Maecenas mattis tincidunt metus, ut vulputate eros interdum vitae. Nulla porttitor elit ac justo molestie, tristique scelerisque elit dictum. </p>
                         <p class="pt-4 textcolor1"><b>CASE STUDY COMING SOON</b></p>
+                        <a href="http://unsignedafrika.com" target="_blank"><b>VISIT WEBSITE</b></a>
                     </div>
                 </div>
             </div>

@@ -6,7 +6,7 @@ class portfolio extends Component {
 
     render() {
         return (
-            <div className="container">
+            <div className="container" id="portfolio">
                 <div className="portfolio">
                     <BigPortfolio></BigPortfolio>
                     <SmallPortfolio></SmallPortfolio>

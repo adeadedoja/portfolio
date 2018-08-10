@@ -1,26 +1,23 @@
-# gatsby-starter-default
-The default Gatsby starter.
+# Dami Adedoja's Portfolio
+Ongoing new portfolio built using Gatsby off The default Gatsby starter.
 
-For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/).
+Gatsby runs off React, so pretty easy to pick up.
 
-## Install
-
-Make sure that you have the Gatsby CLI program installed:
-```sh
-npm install --global gatsby-cli
+## Getting Started
+```
+1. git clone https://github.com/adeadedoja/portfolio.git
+2. cd portfolio
+3. npm install
+4. gatsby develop
 ```
 
-And run from your CLI:
-```sh
-gatsby new gatsby-example-site
-```
+The above will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-Then you can run it by:
-```sh
-cd gatsby-example-site
-gatsby develop
-```
+## Techinical Notes
+1. `Developed using React V2`
+2. `Responsive design using Bootstrap v4`
+3. `CSS Pre-Processing using SASS`
 
-## Deploy
+## License
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+This project is licensed under the MIT License - see the [LICENSE.md](https://opensource.org/licenses/MIT) file for details

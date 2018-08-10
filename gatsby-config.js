@@ -2,6 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'Dami Adedoja • Full Stack Developer',
   },
+  pathPrefix: "/portfolio",
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',

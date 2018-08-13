@@ -11,6 +11,7 @@ class bigportfolio extends Component {
                         <ul>
                             <li>Laravel</li>
                             <li>VueJS</li>
+                            <li>DuoPorta Vehicle API</li>
                         </ul>
                         <p> I did the original design for CarCliq, however, that was a while ago and we wanted something a bit more different. The old design seemed a bit cluttered, there was a lot of technical debt. </p>
                         <p>The new version has a better code structure, was written better, with a more modern feel that is minimal. </p> 

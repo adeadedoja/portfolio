@@ -12,8 +12,9 @@ class bigportfolio extends Component {
                             <li>Laravel</li>
                             <li>VueJS</li>
                         </ul>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tempor, neque et fermentum efficitur, nibh nulla fermentum purus, non vestibulum ante diam ut nunc. Phasellus iaculis leo sed pulvinar rutrum. Maecenas mattis tincidunt metus, ut vulputate eros interdum vitae. Nulla porttitor elit ac justo molestie, tristique scelerisque elit dictum. </p>
-                        <p class="pt-4 textcolor1"><b>CASE STUDY COMING SOON</b></p>
+                        <p> I did the original design for CarCliq, however, that was a while ago and we wanted something a bit more different. The old design seemed a bit cluttered, there was a lot of technical debt. </p>
+                        <p>The new version has a better code structure, was written better, with a more modern feel that is minimal. </p> 
+                        <p>Still a work in progress but definitely on the right path. </p>
                         <a href="http://demo.carcliq.co.za" target="_blank"><b>VISIT WEBSITE</b></a>
                     </div>
                     <div className="col-md-8">
@@ -32,8 +33,7 @@ class bigportfolio extends Component {
                             <li>VueJS</li>
                             <li>VueRouter</li>
                         </ul>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tempor, neque et fermentum efficitur, nibh nulla fermentum purus, non vestibulum ante diam ut nunc. Phasellus iaculis leo sed pulvinar rutrum. Maecenas mattis tincidunt metus, ut vulputate eros interdum vitae. Nulla porttitor elit ac justo molestie, tristique scelerisque elit dictum. </p>
-                        <p class="pt-4 textcolor1"><b>CASE STUDY COMING SOON</b></p>
+                        <p>Client requested a SPA. Something similar to Spotify. With the ability to stream music and be able to move seamlessly from one page to another without any interruption in the song. That neccesitated a VueJS front end, with VueRouter for routing and Laravel serving up the API. The application was complete with user authentication, a messaging feature etc</p>
                         <a href="http://unsignedafrika.com" target="_blank"><b>VISIT WEBSITE</b></a>
                     </div>
                 </div>
@@ -46,8 +46,7 @@ class bigportfolio extends Component {
                             <li>VueJS</li>
                             <li>React Native</li>
                         </ul>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tempor, neque et fermentum efficitur, nibh nulla fermentum purus, non vestibulum ante diam ut nunc. Phasellus iaculis leo sed pulvinar rutrum. Maecenas mattis tincidunt metus, ut vulputate eros interdum vitae. Nulla porttitor elit ac justo molestie, tristique scelerisque elit dictum. </p>
-                        <p class="pt-4 textcolor1"><b>CASE STUDY COMING SOON</b></p>
+                        <p>The client requested for an estate management application. The application is to be managed in the back office off a web platform, while the actual users access it via mobile app. The back office was built with a combination of Laravel and VueJS while the mobile application was built using ReactNative.  </p>
                     </div>
                     <div className="col-md-8">
                         <img src="../images/cem.jpg" className="img-fluid" alt="cem" />

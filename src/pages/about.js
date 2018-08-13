@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 class about extends Component {
     render() {
@@ -6,10 +7,17 @@ class about extends Component {
             <div className="bg-grey" id="about">
                 <div className="container">
                     <div className="row about">
-                        <div className="col-md-4"><h2 className="about--bold textcolor1">Hi, Let me introduce myself.</h2></div>
+                        <div className="col-md-4">
+                            <h2 className="about--bold textcolor1">Hi, Let me introduce myself.</h2>
+                            <a href="https://www.linkedin.com/in/adedamola-adedoja-91872028/" class="mr-2"><FontAwesomeIcon icon={['fab', 'linkedin']} /></a>
+                            <a href="https://github.com/adeadedoja" class="mr-2"><FontAwesomeIcon icon={['fab', 'github']} /></a>
+                            <a href="mailto:damdey@yahoo.com" class="mr-2"><FontAwesomeIcon icon="envelope" /></a>
+                        </div>
                         <div className="col-md-8">
                             <p className="textcolor1"><b>I am currently a Developer at Accelerate Sales, Johannesburg</b></p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tempor, neque et fermentum efficitur, nibh nulla fermentum purus, non vestibulum ante diam ut nunc. Phasellus iaculis leo sed pulvinar rutrum. Maecenas mattis tincidunt metus, ut vulputate eros interdum vitae. Nulla porttitor elit ac justo molestie, tristique scelerisque elit dictum. </p>
+                            <p>As a Full Stack Developer with over 7 years of experience. My main goal is to solve problems and create solutions, regardless of technology or programming language used. The goal is to <b class="textcolor1">SOLVE PROBLEMS</b>. With a background in design, I love clean, minimal designs that fulfils its function while still aesthetically pleasing. </p>
+                            <p>I have used multiple programming languages and tools over the years, but my favorite current technologies include Laravel, VueJS, React, React Native, Angular. </p>
+                            <p>I do also love scouring dribbble for real great designs and also creating my own mockups and prototypes on Adobe XD.</p>
                         </div>
                     </div>
                 </div>

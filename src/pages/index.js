@@ -6,6 +6,11 @@ import Top from './top'
 import About from './about'
 import Projects from './portfolio'
 import Footer from './footer'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+import { faEnvelope, faArrowRight, faDownload } from '@fortawesome/free-solid-svg-icons'
+
+library.add(fab, faEnvelope, faArrowRight, faDownload)
 
 const IndexPage = () => (
   <Layout>
